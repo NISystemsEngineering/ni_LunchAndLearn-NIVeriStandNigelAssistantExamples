@@ -12,7 +12,7 @@
 <NumElts>10</NumElts>
 <String>
 <Name>name</Name>
-<Val>Actuator Forward Command</Val>
+<Val>SendEnablePowerMessage</Val>
 </String>
 <Boolean>
 <Name>indicator</Name>
@@ -25,7 +25,7 @@
 <LvVariant>
 <Name>default value</Name>
 <Boolean>
-<Name>Actuator Forward Command</Name>
+<Name>SendEnablePowerMessage</Name>
 <Val>0</Val>
 </Boolean>
 </LvVariant>
@@ -75,7 +75,7 @@
 <Dimsize>1</Dimsize>
 <String>
 <Name>Label.Text</Name>
-<Val>Actuator Forward Command</Val>
+<Val>SendEnablePowerMessage</Val>
 </String>
 </Array>
 </Cluster>
@@ -119,7 +119,7 @@
 <NumElts>10</NumElts>
 <String>
 <Name>name</Name>
-<Val>Actuator Reverse Command</Val>
+<Val>EnablePower</Val>
 </String>
 <Boolean>
 <Name>indicator</Name>
@@ -132,7 +132,7 @@
 <LvVariant>
 <Name>default value</Name>
 <Boolean>
-<Name>Actuator Reverse Command</Name>
+<Name>EnablePower</Name>
 <Val>0</Val>
 </Boolean>
 </LvVariant>
@@ -182,7 +182,7 @@
 <Dimsize>1</Dimsize>
 <String>
 <Name>Label.Text</Name>
-<Val>Actuator Reverse Command</Val>
+<Val>EnablePower</Val>
 </String>
 </Array>
 </Cluster>
@@ -230,7 +230,7 @@
 <NumElts>10</NumElts>
 <String>
 <Name>name</Name>
-<Val>Position</Val>
+<Val>ECU_VBATT</Val>
 </String>
 <Boolean>
 <Name>indicator</Name>
@@ -243,7 +243,7 @@
 <LvVariant>
 <Name>default value</Name>
 <DBL>
-<Name>Position</Name>
+<Name>ECU_VBATT</Name>
 <Val>0.00000000000000</Val>
 </DBL>
 </LvVariant>
@@ -293,7 +293,7 @@
 <Dimsize>1</Dimsize>
 <String>
 <Name>Label.Text</Name>
-<Val>Position</Val>
+<Val>ECU_VBATT</Val>
 </String>
 </Array>
 </Cluster>
@@ -446,7 +446,7 @@
 </DBL>
 <String>
 <Name>subsystem name</Name>
-<Val>PositionSensorModel</Val>
+<Val>PowerSupplyModel</Val>
 </String>
 <I32>
 <Name>model bitness</Name>

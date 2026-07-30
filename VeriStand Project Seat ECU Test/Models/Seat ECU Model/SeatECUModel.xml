@@ -1,6 +1,6 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>26.1.2f2</Version>
+<Version>26.3f0</Version>
 <Cluster>
 <Name>cluster</Name>
 <NumElts>6</NumElts>
@@ -981,7 +981,7 @@
 </DBL>
 <String>
 <Name>subsystem name</Name>
-<Val>SeatPositionModel</Val>
+<Val>SeatECUModel</Val>
 </String>
 <I32>
 <Name>model bitness</Name>
