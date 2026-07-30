@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="227520FDF9749C054D0C8F26BE5BF115F375389B32A4F11803AEF4F4C7CF49778F9CA670A5E13D7C4FDAE350CC2CEF3C516A3FD2D32DEC45A567D4E88180F162" Timestamp="1DD16349DAE401F" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.21.0.49855" FeatureSetName="Configuration Based Software Core" Name="http://www.ni.com/ConfigurationBasedSoftware.Core" OldestCompatibleVersion="6.3.0.49152" Version="9.15.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.21.0.49855" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.21.0.49855" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.21.0.49855" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.21.0.49855" FeatureSetName="VeriStand Core Components" Name="http://www.ni.com/VeriStand" OldestCompatibleVersion="9.0.0.49152" Version="9.0.0.49152" />
+		<ApplicationVersionInfo Build="13.5.0.49855" Name="VeriStand" Version="9.21.0.49855" />
+	</SourceModelFeatureSet>
+	<Screen Id="2" xmlns="http://www.ni.com/VeriStand">
+		<ScreenSurface Height="[float]1600" Id="1" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2096" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core">
+			<ChannelGauge BaseName="[string]Gauge" Channel="[string]Aliases/Seat ECU/External Measurements/SensorPosition" Height="[float]170" Id="cab7f76245df49d8b112c3bc0eedbb2e" InteractionMode="[NumericPointerInteractionModes]EditRange" Label="[UIModel]9ef37348e5c14b1ab6a242c65d226a77" Left="[float]342" Maximum="[double]100" MinHeight="[float]125" MinWidth="[float]125" Top="[float]392" ValueType="[Type]Double" Width="[float]170" />
+			<Label Height="[float]16" Id="9ef37348e5c14b1ab6a242c65d226a77" LabelOwner="[UIModel]cab7f76245df49d8b112c3bc0eedbb2e" Left="[float]342" Text="[string]SensorPosition" Top="[float]372" Width="[float]78" xmlns="http://www.ni.com/PanelCommon" />
+			<ChannelMeter BaseName="[string]Meter" Channel="[string]Aliases/Seat ECU/External Measurements/VBATT" Height="[float]130" Id="f3929e7a22841329c6ea55bb4e80ec5" InteractionMode="[NumericPointerInteractionModes]EditRange" Label="[UIModel]ff9572deb1f14209b90fb81d9411ded2" Left="[float]45" Maximum="[double]20" MinHeight="[float]65" MinWidth="[float]110" Top="[float]61" ValueType="[Type]Double" Width="[float]200" />
+			<Label Height="[float]16" Id="ff9572deb1f14209b90fb81d9411ded2" LabelOwner="[UIModel]f3929e7a22841329c6ea55bb4e80ec5" Left="[float]45" Text="[string]VBATT" Top="[float]41" Width="[float]34" xmlns="http://www.ni.com/PanelCommon" />
+			<VeriStandChart BaseName="[string]Chart" Height="[float]687" Id="a258305716e04601bfa038dbf74256df" Label="[UIModel]7a649f790a8e44d2b81707705e88d936" Left="[float]631" PlotAreaMargin="[SMThickness]103,24,28,43" PreferIndexData="[bool]False" RecordTime="[uint]10" RenderMode="[RenderMode]Hardware" SuppressScaleLayout="[bool]False" Top="[float]53" Width="[float]794" xmlns="http://www.ni.com/VeriStand">
+				<VeriStandChartAxis Adjuster="[RangeAdjuster]ContinuousChart" Id="9fb210dbe68749e7be50d48747e7ed95" Label="[string]System Time" MajorDivisions="[UIModel]d7817c4be6db4069a0be8c672f0afdb4" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double">
+					<RangeLabeledDivisions Id="d7817c4be6db4069a0be8c672f0afdb4" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<p.LabelPresenter Kind="LVRelativeSeconds" Format="G6" />
+					</RangeLabeledDivisions>
+				</VeriStandChartAxis>
+				<VeriStandChartAxis Adjuster="[RangeAdjuster]FitLoosely" Id="a36128b209c54a16911734a600d906ca" IsTimeAxisLabelBoundToChannel="[bool]False" Label="[string]Off / On" MajorDivisions="[UIModel]950993906aeb4ffd9360b563ee5e548f" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 10, System.Double" ValueType="[Type]Double">
+					<RangeLabeledDivisions Id="950993906aeb4ffd9360b563ee5e548f" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<p.LabelPresenter Kind="LVRelativeSeconds" Format="G6" />
+					</RangeLabeledDivisions>
+				</VeriStandChartAxis>
+				<VeriStandChartPlot Channel="[string]Aliases/Seat ECU/Buses/ForwardActuatorStatus" HorizontalScale="[UIModel]9fb210dbe68749e7be50d48747e7ed95" Id="882efb366b0d4592b2b2e0501a564995" IsDefaultPlot="[bool]False" Label="[string]ForwardActuatorStatus" VerticalScale="[UIModel]a36128b209c54a16911734a600d906ca">
+					<PlotRenderer Id="8882d623e17c4d378e98c0f644a39f68" LineStroke="[SMSolidColorBrush]#ffea4225" LineThickness="[double]1" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				</VeriStandChartPlot>
+				<VeriStandChartPlot Channel="[string]Aliases/Seat ECU/Buses/ReverseActuatorStatus" HorizontalScale="[UIModel]9fb210dbe68749e7be50d48747e7ed95" Id="326fbbe3584d4a8d8f7a32588d7d0e84" IsDefaultPlot="[bool]False" Label="[string]ReverseActuatorStatus" VerticalScale="[UIModel]a36128b209c54a16911734a600d906ca">
+					<PlotRenderer Id="82e1c96ff7af49d4b3f7449df374c6fb" LineStroke="[SMSolidColorBrush]#ffe6cd00" LineThickness="[double]1" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				</VeriStandChartPlot>
+				<VeriStandChartPlot Channel="[string]Aliases/Seat ECU/External Measurements/SensorPosition" HorizontalScale="[UIModel]9fb210dbe68749e7be50d48747e7ed95" Id="e14f5d70eb342f1a4d619a8ae9dd6cd" IsDefaultPlot="[bool]False" Label="[string]SensorPosition" UserChangedVerticalScale="[bool]True" VerticalScale="[UIModel]dc1d79d6af5c42cbbc9985e41c214154">
+					<PlotRenderer Id="2d22d3e66de8465d9ddf9df1c3e244e9" LineStroke="[SMSolidColorBrush]#ff5ac59d" LineThickness="[double]1" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				</VeriStandChartPlot>
+				<HmiChartAxis Adjuster="[RangeAdjuster]GrowLoosely" Id="dc1d79d6af5c42cbbc9985e41c214154" Label="[string]Percent" MajorDivisions="[UIModel]cfb9b6336adb4fcb9f0537491b791efa" Orientation="[SMOrientation]Vertical" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core">
+					<RangeLabeledDivisions Id="cfb9b6336adb4fcb9f0537491b791efa" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+						<p.LabelPresenter Kind="LVRelativeSeconds" Format="G6" />
+					</RangeLabeledDivisions>
+				</HmiChartAxis>
+			</VeriStandChart>
+			<HmiChartPlotLegend Graph="[UIModel]a258305716e04601bfa038dbf74256df" Height="[float]80" Id="bfc7035ad7434daba26f3c02fda47929" Left="[float]1432" Top="[float]53" />
+			<HmiChartCursorLegend Graph="[UIModel]a258305716e04601bfa038dbf74256df" Height="[float]80" Id="ef1c9d805f6e421a96a6e1b0677309bf" Left="[float]636" MinHeight="[float]80" Top="[float]769" Visible="[bool]False" Width="[float]316" />
+			<HmiChartScaleLegend Graph="[UIModel]a258305716e04601bfa038dbf74256df" Height="[float]52" Id="a06c0c46cbd64913a2f95d24086e7c35" Left="[float]1350" Top="[float]747" Visible="[bool]False" />
+			<CompositeGraphTools BackgroundColor="[SMSolidColorBrush]#fff7f7f7" Graph="[UIModel]a258305716e04601bfa038dbf74256df" Height="[float]26" Id="e58a4a2a912146b1ae2135842d6b564c" Left="[float]1239" OffsetX="[float]608" OffsetY="[float]0" Top="[float]53" Width="[float]152">
+				<ComposableButton BackingCanDelete="[bool]False" BaseName="[string]Hold" BorderBrush="[SMSolidColorBrush]#00ffffff" Content="[UIModel]ff2c7cd0aad548439ccf16e39d80beac" Enabled="[bool]False" FalseBackground="[SMSolidColorBrush]#00ffffff" Height="[float]22" Id="fff949693792494884714a9a39a04d50" IsMomentary="[bool]False" Label="[UIModel]ef7936b2f9fc47d9887b1bdc58bf7b84" Left="[float]2" PartName="[string]PART_HoldButton" Top="[float]2" Value="[bool]False" Width="[float]28">
+					<Image BaseName="[string]Image" Id="ff2c7cd0aad548439ccf16e39d80beac" Left="[float]0" Source="[string]pack://application:,,,/NationalInstruments.Hmi.Core;component/Resources/GraphTools_Pause.png" Stretch="[SMStretch]None" Top="[float]0" xmlns="http://www.ni.com/PlatformFramework" />
+				</ComposableButton>
+				<ComposableButton BackingCanDelete="[bool]False" BaseName="[string]Horizontal Zoom" BorderBrush="[SMSolidColorBrush]#00ffffff" Content="[UIModel]7242fec34eaa454780b3933aae27cd79" Enabled="[bool]False" FalseBackground="[SMSolidColorBrush]#00ffffff" Height="[float]22" Id="796ff2e4d32a40ce9a3dec0447525081" IsMomentary="[bool]False" Label="[UIModel]65c8987fc7c242f7bd27fce14b3a6d27" Left="[float]33" PartName="[string]PART_ZoomHorizontalButton" Top="[float]2" Value="[bool]False" Width="[float]28">
+					<Image BaseName="[string]Image" Id="7242fec34eaa454780b3933aae27cd79" Left="[float]0" Source="[string]pack://application:,,,/NationalInstruments.Hmi.Core;component/Resources/ZoomHorizontal.png" Stretch="[SMStretch]Uniform" Top="[float]0" xmlns="http://www.ni.com/PlatformFramework" />
+				</ComposableButton>
+				<ComposableButton BackingCanDelete="[bool]False" BaseName="[string]Vertical Zoom" BorderBrush="[SMSolidColorBrush]#00ffffff" Content="[UIModel]e4438a0ae9a24505aa376ed7596552f0" Enabled="[bool]False" FalseBackground="[SMSolidColorBrush]#00ffffff" Height="[float]22" Id="64361d338b934afe8edcaba0d82798ec" IsMomentary="[bool]False" Label="[UIModel]893c6d91c5f4439a313f11e99b201b9" Left="[float]63" PartName="[string]PART_ZoomVerticalButton" Top="[float]2" Value="[bool]False" Width="[float]28">
+					<Image BaseName="[string]Image" Id="e4438a0ae9a24505aa376ed7596552f0" Left="[float]0" Source="[string]pack://application:,,,/NationalInstruments.Hmi.Core;component/Resources/ZoomVertical.png" Stretch="[SMStretch]Uniform" Top="[float]0" xmlns="http://www.ni.com/PlatformFramework" />
+				</ComposableButton>
+				<ComposableButton BackingCanDelete="[bool]False" BaseName="[string]Pan" BorderBrush="[SMSolidColorBrush]#00ffffff" Content="[UIModel]6f9cb273101b4cc687f5983b276eb41e" Enabled="[bool]False" FalseBackground="[SMSolidColorBrush]#00ffffff" Height="[float]22" Id="c2cb00dfb72f4fa597488977275edabc" IsMomentary="[bool]False" Label="[UIModel]a4a9c3a52ae34bc097447f24b9c85381" Left="[float]93" PartName="[string]PART_PanButton" Top="[float]2" Value="[bool]False" Width="[float]28">
+					<Image BaseName="[string]Image" Id="6f9cb273101b4cc687f5983b276eb41e" Left="[float]0" Source="[string]pack://application:,,,/NationalInstruments.Hmi.Core;component/Resources/ZoomPan.png" Stretch="[SMStretch]Uniform" Top="[float]0" xmlns="http://www.ni.com/PlatformFramework" />
+				</ComposableButton>
+				<ComposableButton BackingCanDelete="[bool]False" BaseName="[string]Reset" BorderBrush="[SMSolidColorBrush]#00ffffff" Content="[UIModel]e533950e0dbe4cb38d8c15233b98e995" Enabled="[bool]False" FalseBackground="[SMSolidColorBrush]#00ffffff" Height="[float]22" Id="5362509a33d347fc9239add40099b497" IsMomentary="[bool]True" Label="[UIModel]3eef5b62a85641ba87a9bb031463b841" Left="[float]123" PartName="[string]PART_ResetButton" Top="[float]2" Value="[bool]False" Width="[float]28">
+					<Image BaseName="[string]Image" Id="e533950e0dbe4cb38d8c15233b98e995" Left="[float]0" Source="[string]pack://application:,,,/NationalInstruments.Hmi.Core;component/Resources/ZoomExtents.png" Stretch="[SMStretch]Uniform" Top="[float]0" xmlns="http://www.ni.com/PlatformFramework" />
+				</ComposableButton>
+				<Label Id="ef7936b2f9fc47d9887b1bdc58bf7b84" LabelOwner="[UIModel]fff949693792494884714a9a39a04d50" Left="[float]2" Text="[string]Hold" Top="[float]-18" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+				<Label Id="65c8987fc7c242f7bd27fce14b3a6d27" LabelOwner="[UIModel]796ff2e4d32a40ce9a3dec0447525081" Left="[float]33" Text="[string]Horizontal Zoom" Top="[float]-18" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+				<Label Id="893c6d91c5f4439a313f11e99b201b9" LabelOwner="[UIModel]64361d338b934afe8edcaba0d82798ec" Left="[float]63" Text="[string]Vertical Zoom" Top="[float]-18" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+				<Label Id="a4a9c3a52ae34bc097447f24b9c85381" LabelOwner="[UIModel]c2cb00dfb72f4fa597488977275edabc" Left="[float]93" Text="[string]Pan" Top="[float]-18" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+				<Label Id="3eef5b62a85641ba87a9bb031463b841" LabelOwner="[UIModel]5362509a33d347fc9239add40099b497" Left="[float]123" Text="[string]Reset" Top="[float]-18" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+			</CompositeGraphTools>
+			<Label Height="[float]16" Id="7a649f790a8e44d2b81707705e88d936" LabelOwner="[UIModel]a258305716e04601bfa038dbf74256df" Left="[float]631" Text="[string]Chart" Top="[float]33" Width="[float]30" xmlns="http://www.ni.com/PanelCommon" />
+			<ChannelLED BaseName="[string]Square LED" Channel="[string]Aliases/Seat ECU/External Switches/Location2Switch" ContentVisibility="[Visibility]Collapsed" FalseContent="[string]Off" Height="[float]30" Id="fca78f53f1774f1ebac9a945741b28ba" IsReadOnly="[bool]True" Label="[UIModel]1f73a4abf0464b51a1fec2daa5561012" LabelLinked="[bool]True" Left="[float]342" MinHeight="[float]20" MinWidth="[float]20" Shape="[LEDShape]Square" Top="[float]207" TrueContent="[string]On" Width="[float]30" />
+			<Label Height="[float]16" Id="1f73a4abf0464b51a1fec2daa5561012" LabelOwner="[UIModel]fca78f53f1774f1ebac9a945741b28ba" Left="[float]342" Text="[string]Location2Switch" Top="[float]187" Width="[float]86" xmlns="http://www.ni.com/PanelCommon" />
+			<ChannelLED BaseName="[string]Square LED" Channel="[string]Aliases/Seat ECU/External Switches/ForwardSwitch" ContentVisibility="[Visibility]Collapsed" FalseContent="[string]Off" Height="[float]30" Id="20e5d302b90b41f4a57253a03c79c7f3" IsReadOnly="[bool]True" Label="[UIModel]ffee35aa5a2246629381e413628eba2e" LabelLinked="[bool]True" Left="[float]342" MinHeight="[float]20" MinWidth="[float]20" Shape="[LEDShape]Square" Top="[float]61" TrueContent="[string]On" Width="[float]30" />
+			<Label Height="[float]16" Id="ffee35aa5a2246629381e413628eba2e" LabelOwner="[UIModel]20e5d302b90b41f4a57253a03c79c7f3" Left="[float]342" Text="[string]ForwardSwitch" Top="[float]41" Width="[float]78" xmlns="http://www.ni.com/PanelCommon" />
+			<ChannelLED BaseName="[string]Square LED" Channel="[string]Aliases/Seat ECU/External Switches/Location1Switch" ContentVisibility="[Visibility]Collapsed" FalseContent="[string]Off" Height="[float]30" Id="267be59ad3fb4e92b103c56f2326b6a9" IsReadOnly="[bool]True" Label="[UIModel]5efd7806cc194923aa8c8f9349bccdcb" LabelLinked="[bool]True" Left="[float]342" MinHeight="[float]20" MinWidth="[float]20" Shape="[LEDShape]Square" Top="[float]131" TrueContent="[string]On" Width="[float]30" />
+			<Label Height="[float]16" Id="5efd7806cc194923aa8c8f9349bccdcb" LabelOwner="[UIModel]267be59ad3fb4e92b103c56f2326b6a9" Left="[float]342" Text="[string]Location1Switch" Top="[float]111" Width="[float]86" xmlns="http://www.ni.com/PanelCommon" />
+			<ChannelLED BaseName="[string]Square LED" Channel="[string]Aliases/Seat ECU/External Switches/ReverseSwitch" ContentVisibility="[Visibility]Collapsed" FalseContent="[string]Off" Height="[float]30" Id="c20b895a445f4ec6b0bc8f5479889151" IsReadOnly="[bool]True" Label="[UIModel]9d8b97b078c4ea19d70717d20bc6060" LabelLinked="[bool]True" Left="[float]342" MinHeight="[float]20" MinWidth="[float]20" Shape="[LEDShape]Square" Top="[float]285" TrueContent="[string]On" Width="[float]30" />
+			<Label Height="[float]16" Id="9d8b97b078c4ea19d70717d20bc6060" LabelOwner="[UIModel]c20b895a445f4ec6b0bc8f5479889151" Left="[float]342" Text="[string]ReverseSwitch" Top="[float]265" Width="[float]75" xmlns="http://www.ni.com/PanelCommon" />
+		</ScreenSurface>
+	</Screen>
+</SourceFile>

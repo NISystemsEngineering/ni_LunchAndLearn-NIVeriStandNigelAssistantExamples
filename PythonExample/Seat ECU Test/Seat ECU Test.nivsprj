@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="B3D616FDA081A612B8D158E3194DC28E8B1ED91BC978E9A9BDF7962EE2BFEF27916EABFBFBB1BC1E05CB62123E67FEBB5E0C03D0DF5426580B27BDD62934D1BF" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.21.0.49855" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.21.0.49855" FeatureSetName="VeriStand Core Components" Name="http://www.ni.com/VeriStand" OldestCompatibleVersion="9.0.0.49152" Version="9.0.0.49152" />
+		<ApplicationVersionInfo Build="13.5.0.49855" Name="VeriStand" Version="9.21.0.49855" />
+	</SourceModelFeatureSet>
+	<Project p2:ProjectVersion="1.0.0.0" xmlns:p2="http://www.ni.com/VeriStand" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="1" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="2" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager" Name="ProjectExplorer">
+			<ProjectExplorer />
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="4" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
+			<DefaultTarget />
+			<EmbeddedDefinitionReference Id="5" ModelDefinitionType="GatewayDefinition" Name="Gateway" Reparentable="False">
+				<p2:GatewayDefinition />
+			</EmbeddedDefinitionReference>
+			<FileReference Bindings=".nivscf" Id="608a3ba4cfd344828a068f5de7f418d2" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Seat ECU Test.nivscf" StoragePath="Seat ECU Test.nivscf" />
+			<SourceFileReference Id="72dad1a97ee149bc85b2ee2ee259c20c" ModelDefinitionType="{http://www.ni.com/VeriStand}Screen" Name="Seat ECU Test.nivsscr" StoragePath="Seat ECU Test.nivsscr" />
+			<FileReference Bindings=".nivsscreen" Id="e8435d735c96464eb4e29c33ad9fb6f5" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Seat ECU Test.nivsscreen" StoragePath="Seat ECU Test.nivsscreen" />
+			<FileReference Bindings=".nivsproj" Id="436582d1e9ba4cdeb7fb2ce1558bf633" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Seat ECU Test.nivsproj" StoragePath="Seat ECU Test.nivsproj" />
+			<SourceFileReference Bindings="EnvoyManager" Id="ca46c79e2c65421193f91583a77e92cc" ModelDefinitionType="{http://www.ni.com/VeriStand}SystemDefinition" Name="Seat ECU Test.nivssdf" StoragePath="Seat ECU Test.nivssdf" />
+			<EmbeddedDefinitionReference Id="eb5a0c128444942b1e99137a1e2d982" ModelDefinitionType="SdfFilePath" Name="SdfPath" Reparentable="False">
+				<p2:SdfFilePath SdfPath="Seat ECU Test.nivssdf" />
+			</EmbeddedDefinitionReference>
+			<SourceFileReference Id="6e20dba68716429c8db632986d53fbdf" ModelDefinitionType="{http://www.ni.com/VeriStand}LoggingSpecification" Name="Seat ECUT Test LogSpec.nivslspec" StoragePath="Seat ECUT Test LogSpec.nivslspec" />
+		</NameScopingEnvoy>
+	</Project>
+	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
+</SourceFile>
