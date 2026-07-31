@@ -192,65 +192,65 @@
 			<Description />
 			<Properties />
 			<Errors />
-			<Section Name="Seat ECU Test.nivssdf (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666" Identifier="6ca6d808-845f-4812-974b-8aa8d7c48942">
+			<Section Name="Seat ECU Test.nivssdf" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666" Identifier="e8bdbf15-9e00-4855-90a3-54136f9584ab">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Projects\ni_LunchAndLearn-NIVeriStandNigelAssistant\PythonExample\Seat ECU Test\Seat ECU Test.nivssdf</String>
+						<String>C:\Projects\ni_LunchAndLearn-NIVeriStandNigelAssistant\SubModules\ni_LunchAndLearn-NIVeriStandNigelAssistantExamples\VeriStand Project Seat ECU Test\Seat ECU Test.nivssdf</String>
 					</Property>
 				</Properties>
 				<Errors />
 			</Section>
-			<Section Name="Seat ECU Test.nivsscreen (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666" Identifier="64cfd230-b48a-475e-84ea-1eb2957202cf">
+			<Section Name="Seat ECU Test.nivsscreen" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666" Identifier="f3cebab5-3131-48b3-b7d4-aeefdaadab1e">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Projects\ni_LunchAndLearn-NIVeriStandNigelAssistant\PythonExample\Seat ECU Test\Seat ECU Test.nivsscreen</String>
+						<String>C:\Projects\ni_LunchAndLearn-NIVeriStandNigelAssistant\SubModules\ni_LunchAndLearn-NIVeriStandNigelAssistantExamples\VeriStand Project Seat ECU Test\Seat ECU Test.nivsscreen</String>
 					</Property>
 				</Properties>
 				<Errors />
 			</Section>
-			<Section Name="Seat ECU Test.nivsprj (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666" Identifier="25bdb397-7feb-405c-a7d2-00a8ce5f1ab6">
+			<Section Name="Seat ECU Test.nivsprj" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666" Identifier="1d321f58-33b9-482c-9165-e7c41c76a488">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Projects\ni_LunchAndLearn-NIVeriStandNigelAssistant\PythonExample\Seat ECU Test\Seat ECU Test.nivsprj</String>
+						<String>C:\Projects\ni_LunchAndLearn-NIVeriStandNigelAssistant\SubModules\ni_LunchAndLearn-NIVeriStandNigelAssistantExamples\VeriStand Project Seat ECU Test\Seat ECU Test.nivsprj</String>
 					</Property>
 				</Properties>
 				<Errors />
 			</Section>
-			<Section Name="Seat ECU Test.nivscf (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666" Identifier="38ef37a7-9e25-4bb1-952c-65416d2e63fb">
+			<Section Name="Seat ECU Test.nivscf" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666" Identifier="e7bcc2fc-9bc5-493f-948c-362f063c67de">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Projects\ni_LunchAndLearn-NIVeriStandNigelAssistant\PythonExample\Seat ECU Test\Seat ECU Test.nivscf</String>
+						<String>C:\Projects\ni_LunchAndLearn-NIVeriStandNigelAssistant\SubModules\ni_LunchAndLearn-NIVeriStandNigelAssistantExamples\VeriStand Project Seat ECU Test\Seat ECU Test.nivscf</String>
 					</Property>
 				</Properties>
 				<Errors />
 			</Section>
-			<Section Name="PositionSensorModel.lvmodel" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666" Identifier="b4cd7fec-8443-416a-8410-cd8b452fa60b">
+			<Section Name="SmartActuatorModel.lvmodel" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666" Identifier="0ff26a6c-d95c-4315-b23b-ab6831a8d850">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Projects\ni_LunchAndLearn-NIVeriStandNigelAssistant\PythonExample\Seat ECU Test\Models\Windows\PositionSensorModel.lvmodel</String>
+						<String>C:\Projects\ni_LunchAndLearn-NIVeriStandNigelAssistant\SubModules\ni_LunchAndLearn-NIVeriStandNigelAssistantExamples\VeriStand Project Seat ECU Test\Models\Smart Actuator Model\SmartActuatorModel.lvmodel</String>
 					</Property>
 				</Properties>
 				<Errors />
 			</Section>
-			<Section Name="SeatPositionModel.lvmodel" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666" Identifier="c50aa488-1fd1-464a-8b35-233a04acf041">
+			<Section Name="SeatECUModel.lvmodel" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666" Identifier="a1d283e8-f4aa-4151-ba67-1337a6c5c1c8">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Projects\ni_LunchAndLearn-NIVeriStandNigelAssistant\PythonExample\Seat ECU Test\Models\Windows\SeatPositionModel.lvmodel</String>
+						<String>C:\Projects\ni_LunchAndLearn-NIVeriStandNigelAssistant\SubModules\ni_LunchAndLearn-NIVeriStandNigelAssistantExamples\VeriStand Project Seat ECU Test\Models\Seat ECU Model\SeatECUModel.lvmodel</String>
 					</Property>
 				</Properties>
 				<Errors />
 			</Section>
-			<Section Name="PowerSupply.lvmodel" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666" Identifier="ee148633-41f6-4c96-88a4-1e4461df0d5a">
+			<Section Name="PowerSupplyModel.lvmodel" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666" Identifier="d079362a-c9ee-4c36-89e3-160d2c326235">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Projects\ni_LunchAndLearn-NIVeriStandNigelAssistant\PythonExample\Seat ECU Test\Models\Windows\PowerSupply.lvmodel</String>
+						<String>C:\Projects\ni_LunchAndLearn-NIVeriStandNigelAssistant\SubModules\ni_LunchAndLearn-NIVeriStandNigelAssistantExamples\VeriStand Project Seat ECU Test\Models\Power Supply Model\PowerSupplyModel.lvmodel</String>
 					</Property>
 				</Properties>
 				<Errors />
